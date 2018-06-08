@@ -1,0 +1,98 @@
+aside, article, section {
+    background-color: #EFEFEA;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+    margin: 15px;
+    padding: 15px;
+}
+aside > div {
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+}
+body {
+    background-color: #FF312E;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+    font-size: 1.2em;
+}
+figure {
+    color: grey;
+    font-style: italic;
+    margin: 10%;
+}
+footer ul li:hover{
+    background-color: #FFFFFA;
+    border-radius: 5px;
+}
+footer ul li a {
+    color: #FFFFFA;
+    font-size: 1.5em;
+}
+footer ul li a:hover{
+    color: #FF312E;
+}
+header {
+    font-size: 4em;
+    text-align: center;
+}
+header a {
+    color: #FFFFFA;
+    font-family: 'Bowlby One SC';
+    text-decoration: none;
+}
+header a:hover{
+    color: #333138;
+    text-decoration: none;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+main {
+    background-color: #FFFFFA;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+nav ul {
+    background-color: #FFFFFA;
+    border-radius: 5px;
+}
+nav ul li a {
+    color: #333138;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 2em;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: #FF312E;
+}
+ol li {
+    margin-bottom: 100px;
+}
+#profile-pic {
+    padding: 15px 10%;
+}
+#section-accounts p a , #section-contact p a , .link{
+    border-color: #EFEFEA;
+    border-style: dashed;
+    border-width: 3px;
+    color: #FF312E !important;
+    font-weight: 600;
+    text-decoration: none !important;
+}
+#section-accounts p a:hover, #section-contact p a:hover , .link:hover{
+    background-color: white;
+    border-color: #FF312E;
+}
+#welcome-banner {
+    text-align: center;
+}
+#welcome-support > h2{
+    text-align: center;
+}
+#welcome-support > p:first-of-type::first-letter, #article-about-me > p:first-of-type::first-letter {
+    color: #FF312E;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-left: 2em;
+}
