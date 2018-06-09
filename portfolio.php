@@ -31,7 +31,7 @@
                 
                 <section id="section-sites">
                     <h1>Sites I Manage</h1>
-                    <p>No sites currently :(</p>
+                    <p><a class="link" href="http://198.211.98.20">Development Server</a></p>
 				</section>
 			</main>
 
